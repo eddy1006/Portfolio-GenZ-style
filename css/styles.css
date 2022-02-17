@@ -6,8 +6,16 @@ body{
 }
 
 h1{
-  margin-top: 0;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem; /*px is static and it wont change if any user changes font size of their browser meanwhile em and % will change but also remember that they inherit
+  from the parent and do adjustments on top of whatever font size was already provided by the parent so to counter this we have rem which says it doesnt matter what parent
+  specified you have to take size of font according to root-em value , also 100% = 16px = 1em */
   font-family: 'Sacramento' , cursive;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat' , sans-serif;
 }
 
 h3{
